@@ -1,7 +1,7 @@
 class JesqueWebGrailsPlugin {
-    def version = "0.5.4.1"
-    def grailsVersion = "2.0.0 > *"
-    def dependsOn = [jesque: '0.3.0 > *']
+    def version = "0.6"
+    def grailsVersion = "2.4.0 > *"
+    def dependsOn = [jesque: '0.6.0 > *']
     def pluginExcludes = [
             "grails-app/views/error.gsp",
             "src/groovy/grails/plugin/jesqueweb/test/**",
@@ -21,6 +21,7 @@ Web interface to view and manage jesque queues, jobs and workers.
             [name: "Michael Cameron", email: "michael.e.cameron@gmail.com"],
             [name: "Ted Naleid", email: "contact@naleid.com"],
             [name: "Philipp Eschenbach", email: "peh@kunstsysteme.com"],
+            [name: "Egor Pervuninski", email: "egor@egor.pe"],
     ]
     def documentation = "https://github.com/michaelcameron/grails-jesque-web"
     def scm = [url: "https://github.com/michaelcameron/grails-jesque-web"]

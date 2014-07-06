@@ -28,16 +28,13 @@ grails.project.dependency.resolution = {
         test "org.gebish:geb-spock:0.9.0"
     }
     plugins {
-        compile(':redis:1.3.1') {
+        compile(':redis:1.5.5') {
             export = false
         }
         compile(':jesque:0.6.2') {
             export = false
         }
-        build(":tomcat:$grailsVersion")
-        compile(":hibernate:$grailsVersion") {
-            export = false
-        }
+        build(":tomcat:7.0.54")
 
         test(":spock:0.7") {
             export = false

@@ -96,8 +96,7 @@
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     </div>
     <footer>
-        Powered by <a href="https://github.com/gresrun/jesque">Jesque</a> and <a
-            href="http://getbootstrap.com/">Bootstrap</a> - Connected to Redis namespace ${namespace} on ${redisUri}
+        Connected to Redis namespace ${namespace} on ${redisUri}
     </footer>
 </div>
 </body>
