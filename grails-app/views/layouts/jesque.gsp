@@ -19,8 +19,7 @@
 </head>
 
 <body>
-<div class="wrap">
-    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <header class="navbar navbar-default navbar-static-top bs-docs-nav" role="banner">
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#collapse">
@@ -70,7 +69,7 @@
                     </g:if>
                 </ul>
 
-                <form class="navbar-form navbar-left" onsubmit="updateIntervall();
+                <form class="navbar-form navbar-right" onsubmit="updateIntervall();
                 return false;">
                     <div class="form-group">
                         <input type="number" step="50" min="50" name="intervall" id="intervall"/>
@@ -98,6 +97,5 @@
     <footer>
         Connected to Redis namespace ${namespace} on ${redisUri}
     </footer>
-</div>
 </body>
 </html>
